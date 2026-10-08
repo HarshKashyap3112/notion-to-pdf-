@@ -1,0 +1,15 @@
+{
+  "name": "notion-pdf-converter",
+  "version": "1.0.0",
+  "description": "Convert Notion HTML exports into a single navigable PDF with preserved links",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "start": "cd server && npm start",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev"
+  },
+  "keywords": ["notion", "pdf", "converter", "playwright"],
+  "author": "",
+  "license": "MIT"
+}
